@@ -8,6 +8,10 @@ on:
 
 jobs:
   deploy:
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
 
     runs-on: ubuntu-latest
 
