@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  buld:
+  build:
     name: Build Souce Code
     runs-on: ubuntu-latest
     permissions:
