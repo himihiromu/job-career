@@ -8,6 +8,7 @@ on:
 
 jobs:
   buld:
+    name: Build Souce Code
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -32,6 +33,7 @@ jobs:
           path: ./dist
 
   deploy:
+    name: Deploy Gh Pages
     needs: build
     runs-on: ubuntu-latest
 
