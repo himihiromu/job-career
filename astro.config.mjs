@@ -4,6 +4,10 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+  	site: 'https://himihiromu.github.io',
+  	base: '/job-career',
+   	trailingSlash: "never",
+  	output: 'static',
 	integrations: [
 		starlight({
 			title: '自己紹介',
