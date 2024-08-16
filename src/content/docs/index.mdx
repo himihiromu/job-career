@@ -3,27 +3,13 @@ title: Welcome to Starlight
 description: Get started building your docs site with Starlight.
 template: splash
 hero:
-  title: |
-    Welcome to Starlight with
-    <span
-      class="font-black text-transparent
-        bg-clip-text bg-gradient-to-b
-        from-accent-700 to-accent-400
-        dark:from-accent-500 dark:to-accent-200"
-    >
-      Tailwind
-    </span>
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  title: 田んぼの職務経歴書
+  tagline: Astroとstarlightで静的Webサイト形式の職務経歴書を作成しました。
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 内容はこちら
+      link: /job-career/intro
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
 ---
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
@@ -31,21 +17,9 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
 	<LinkCard
     title="Read the self introdjction"
     description="自己紹介のトップ"
-    href="/intro"
+    href="/job-career/intro"
     />
 </CardGrid>
