@@ -13,6 +13,8 @@ export default defineConfig({
 			title: '自己紹介',
 			social: {
 				github: 'https://github.com/himihiromu/job-career',
+				'x.com': 'https://x.com/IT12921265',
+				discord: 'https://discordapp.com/users/404351600719822849',
 			},
 			sidebar: [
 				{ label: '初めに', link: '/intro/'},
