@@ -32,6 +32,13 @@ export default defineConfig({
 						{ label: '学歴', slug: 'academic' },
 					],
 				},
+				{
+					label: '職歴',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: '職歴', slug: 'job-career' },
+					],
+				},
 			],
 			customCss: ['./src/tailwind.css'],
 		}),
