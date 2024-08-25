@@ -26,14 +26,19 @@ export default defineConfig({
 					],
 				},
 				{
-					label: '学歴',
+					label: '学生時代',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: '学歴', slug: 'academic' },
+						{ label: 'アルバイト', slug: 'academic/part-time-job' },
 					],
 				},
 			],
 			customCss: ['./src/tailwind.css'],
+			tableOfContents: {
+				minHeadingLevel: 1,
+				maxHeadingLevel: 4
+			}
 		}),
 		tailwind({ applyBaseStyles: false }),
 	],
